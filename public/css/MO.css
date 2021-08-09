@@ -1,0 +1,478 @@
+/* body{
+    height: 10000px;
+} */
+
+
+/* Start The Navbar */
+.main_nav .navbar .navbar-brand .fa-home:hover{
+      color: #4ed17e;
+}
+.nav-link:hover{
+     background-color: #4ed17e;
+     color: white !important;
+}
+
+/* End The Navbar */
+/* ===================================================================================================================================== */
+/* Start The Carousel */
+
+.w-100 {
+    width: 100% !important;
+    height: 600px;
+}
+@media (min-width:500px) and  (max-width:750px){
+    .w-100 {
+        width: 100% !important;
+        height: 400px;
+    }
+
+}
+@media (max-width: 450px){
+    .w-100 {
+        width: 100% !important;
+        height: 350px;
+    }
+
+
+}
+ 
+/* End The Carousel */
+
+/* =====================================================================================================================================  */
+
+/* Start The Home */
+h1, .h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: white;
+}
+.home .container .row .col-lg-6 p {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: rgba(52,73,94, 0.53);
+}
+.home{
+    padding: 50px;
+    background-image: url(../images/img/header-img2.jpg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.form_sign{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* End The Home */
+
+/* =====================================================================================================================================  */
+
+/* Start The Product */
+.product{
+    padding-top: 50px;
+    background-color: #ecf0f1;
+}
+/* .product .container .row .product_col{
+
+} */
+.product .container .row .image_col img{
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.product .container .row{
+    margin-top: 40px;
+}
+.product .container .row .product_col .con{
+    margin-left: 30px;
+
+}
+.product .container .row .product_col h2{
+    
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+.product .container .row .product_col .con .button{
+          background-color: #dc3545;
+          display: block;
+          margin-top: 20px;
+}
+/* End The Product */
+
+/* =====================================================================================================================================  */
+
+/* Start The Services */
+
+.service{
+    padding: 40px;
+}
+.service .container {
+    padding-left: 0px;
+}
+.container .row {
+    margin-left: 0px !important;
+}
+.service .container .ser .row .col-lg-6 .row{
+
+       margin-top: 50px;
+       margin-bottom: 50px;
+
+}
+.service .container .row .col-lg-6  img {
+    display: inline;
+    vertical-align: middle;
+    border-style: none;
+    height: 95px;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width:300px) and  (max-width:575px){
+
+
+    .service .container .row .col-lg-6  img {
+        height: 70px;
+        margin-top: 50px;
+    }
+    .service .container .ser .row .col-lg-6 .row{
+
+        text-align: CENTER;
+
+ 
+ }
+     
+
+}
+/* End The Services */
+
+/* =====================================================================================================================================  */
+
+/* Start The Prices */
+
+ .price {
+    background-color: #ecf0f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+table{
+    border: 0 !important;
+    width: 100% ;
+}
+
+td ,th{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.th{
+    background-color: #212529;
+    color: white;
+}
+.td1{
+    background-color: #e0e4e5;
+    border: 1px solid #e0e4e5;
+}
+.td2{
+    border: 1px solid #e0e4e5;
+}
+
+.table th, .table td {
+    padding-top: 10px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.complet{
+    padding-top: 40px;
+    background-color: #ecf0f1;
+    padding-bottom: 30px;
+}
+
+.container .row .cool{
+    margin-bottom: 40px;
+    width: 100% !important;
+}
+.container .row .cool .col3{
+    height: 380px;
+    margin-bottom: 20px;
+}
+.container .row .cool .col3 .card-body .btn-danger {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.container .row .col-lg-4 .col3 .card-body .btn-warning {
+    margin-top: 15px;
+    width: 100px;
+}
+@media (max-width: 380px){
+    .complet .container .row{
+        margin-left: 5% !important;
+    }
+    .price .container {
+
+        padding-left: 0px !important;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .complet .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: 0%;
+}
+
+}
+@media (min-width:381px) and  (max-width:449px){
+
+    .complet .container .row{
+        margin-left: 10% !important;
+    }
+    .complet .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 0px !important;
+        margin-right: auto;
+        margin-left: 0%;
+    }
+
+}
+@media (min-width:450px) and  (max-width:767px){
+
+    .complet .container .row{
+        margin-left: 20% !important;
+    }
+
+}
+ 
+
+/* End The Prices */
+
+/* =====================================================================================================================================  */
+
+/* Start The Business */
+
+
+
+.business{
+    padding: 30px !important;
+    background-image: url(../images/buss/buss1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* .business .row .col-lg-3{
+    width: 250px !important;
+    margin-left: 0%;
+    
+} */
+.business .row .col-lg-3 .card{
+    margin-top: 30px;
+}
+
+
+.business .row .col-lg-3 .card:hover{
+    background-color: #82ca9c;
+    transition-duration: 0.5s;
+    
+}
+.business .row .col-lg-3 .card:hover .card-body .fas , .business .container .row .col-lg-3 .card:hover .card-body .card-text{
+    color: #fafafa;
+    transition-duration: 0.5s;
+    
+}
+.business .row .col-lg-3 .card .card-body .fas{
+    color: #82ca9c;
+    margin: 20px;
+
+}
+
+
+/* End The Business */
+
+/* =====================================================================================================================================  */
+
+/* Start The Team */
+
+
+.teams{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.intro_team{
+     margin: 40px;
+}
+/* .teams .container{
+    margin-left: 50px ;
+} */
+.teams .container .intro_team p{
+    margin-top:10px;
+
+}
+.line {
+    width: 150px;
+    background: #ddd;
+    height: 2px;
+    margin: auto
+}
+.line span{
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #7cb62f;
+    margin: auto;
+    position: relative;
+    bottom: 4px;
+}
+
+.teams .container .row .col-lg-3{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+
+
+}
+.teams .row img{
+    padding: 5px;
+    width: 205px;
+    height: 210px;
+    border-radius: 50%;
+    border: 1px rgb(216, 216, 216) solid;
+}
+.teams .container .col-lg-3 .fab{
+     color: #8e44ad;
+}
+.teams .container .col-lg-3 .fab:hover{
+    color: #a0daa3;
+}
+
+@media (min-width:500px) and  (max-width:580px){
+
+    .teams .container{
+        margin-left: 0px !important;
+    }
+    .teams .container .row .col-lg-3{
+        margin-top: 50px !important;
+        margin-left: auto !important;
+    }
+
+
+}
+
+
+/* End The Team */
+
+/* =====================================================================================================================================  */
+
+/* Start The Contact */
+
+.contact{
+background-color: #ecf0f1;
+padding: 50px;
+}
+
+.contact .container{
+    max-width: 1260px !important;
+}
+
+.intro_contact{
+    margin-bottom: 80px;
+}
+
+.textarea{
+    padding: 5px;
+}
+
+.tel_contact{
+    margin-left: 20px;
+}
+.contact_awsom{
+    margin-left: 20px;
+
+}
+.contact .container .row .col-lg-6 .contact_awsom .fab{
+    color: #8e44ad;
+}
+
+.contact .container .row .col-lg-6 .contact_awsom .fab:hover{
+    color: #a0daa3;
+}
+
+
+@media (min-width:500px) and  (max-width:580px){
+
+    .contact .container .row{
+        margin-left: 0% !important;
+    }
+ 
+    /* .footer .container .row .col-lg-3{ 
+        margin-top: 40px !important;
+    } */
+
+
+}
+
+
+
+/* End The Contact */
+
+/* =====================================================================================================================================  */
+
+
+/*  Start The Footer */
+
+.footer{
+    padding: 50px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.footer .container .row .col-lg-3 ul li{
+      margin: 15px;
+      font-weight: 400;
+}
+.creater{
+    padding: 20px;
+}
+
+ @media (min-width:300px) and  (max-width:580px){
+
+        
+    .row{
+        padding: 0% !important;
+        margin: 0% !important;
+
+    }
+
+ 
+
+
+}
+@media (min-width:500px) and  (max-width:580px){
+
+    .footer .container .row{
+        margin-left: 0% !important;
+    }
+ 
+    .footer .container .row .col-lg-3{ 
+        margin-top: 40px !important;
+    }
+
+
+}
+
+
+/*  End The Footer */
+
+
+
+
