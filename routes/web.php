@@ -35,3 +35,12 @@ Route::get('laravel' , 'FirstController@getindex');
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+
+//Route::get('/Fillable' , 'Crudcontroller@create');
+ Route::group(['prefix' => 'offers'] , function() {
+
+         Route::get('create' , 'Crudcontroller@create');
+         Route::post('store' , 'Crudcontroller@store');
+
+
+ });
